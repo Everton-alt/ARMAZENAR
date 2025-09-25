@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Material</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .form-container button { background-color: #28a745; color: white; border: none; padding: 0.8rem 1.2rem; border-radius: 4px; cursor: pointer; margin-top: 1rem; }
-        .form-container button:hover { background-color: #218838; }
-        .nav-link { display: inline-block; margin-top: 1rem; background-color: #6c757d; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; }
-    </style>
 </head>
 <body>
     <div class="form-container">
@@ -88,10 +83,6 @@
                     const index = materiais.findIndex(m => m.codigo === codigoOriginal);
                     if (index !== -1) materiais[index] = materialData;
                 } else {
-                    if (materiais.some(m => m.codigo === materialData.codigo)) {
-                        alert('Erro: Código de material já existe!');
-                        return;
-                    }
                     materiais.push(materialData);
                 }
                 

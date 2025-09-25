@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Controle de Materiais</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .error { color: red; text-align: center; margin-top: 1rem; display: none; }
-    </style>
 </head>
 <body>
     <div class="login-container">
@@ -15,13 +12,13 @@
         <form id="loginForm">
             <div>
                 <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" name="usuario" value="Admin">
+                <input type="text" id="usuario" name="usuario" value="admin">
             </div>
             <div>
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" value="1234">
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
             <p id="errorMessage" class="error">Usuário ou senha inválidos!</p>
         </form>
     </div>
@@ -30,7 +27,7 @@
             event.preventDefault();
             const usuario = document.getElementById('usuario').value;
             const senha = document.getElementById('senha').value;
-            if (usuario === 'Admin' && senha === '1234') {
+            if (usuario === 'admin' && senha === '1234') {
                 window.location.href = 'dashboard.html';
             } else {
                 document.getElementById('errorMessage').style.display = 'block';
