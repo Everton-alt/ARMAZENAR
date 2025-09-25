@@ -10,7 +10,7 @@ body {
     align-items: center;
 
     /* --- NOVOS ESTILOS PARA IMAGEM DE FUNDO --- */
-    background-image: url('https://github.com/Everton-alt/ARMAZENAR/blob/main/bracell.jpg');
+    background-image: url('https://raw.githubusercontent.com/Everton-alt/ARMAZENAR/refs/heads/main/bracell.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
     background-position: center; /* Centraliza a imagem */
@@ -245,5 +245,4 @@ dialog p {
         padding: 0.8rem;
         font-size: 1rem;
     }
-
 }
