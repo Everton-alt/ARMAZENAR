@@ -10,7 +10,7 @@ body {
     align-items: center;
 
     /* --- NOVOS ESTILOS PARA IMAGEM DE FUNDO --- */
-    background-image: url('https://agenciaat.com/wp-content/uploads/2024/08/Fabrica-da-Bracell-em-Camacari-Acervo-Bracell-1.jpg');
+    background-image: url('https://github.com/Everton-alt/ARMAZENAR/blob/main/bracell.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
     background-position: center; /* Centraliza a imagem */
@@ -245,4 +245,5 @@ dialog p {
         padding: 0.8rem;
         font-size: 1rem;
     }
+
 }
